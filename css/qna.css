@@ -1,37 +1,44 @@
 #qna {
-    display: none;
-  }
-  
-  .qBox {
-    background-color: whitesmoke;
-    text-align: center;
-    border-radius: 20px;
-    font-size: 24px;
-    width: 80%
-  }
-  
-  .answerList {
-    background-color: whitesmoke;
-    border-radius: 20px;
-    display: block;
-    width: 80%;
-    border: 0px;
-    font-size: 20px;
-  }
-  
-  .answerList:hover, .answerList:focus {
-    background-color: #4D869C;
-    color: white;
-  }
-  
-  .status {
-    height: 20px;
-    width: 80%;
-    background-color: whitesmoke;
-    border-radius: 20px;
-  }
-  
-  .statusBar {
+  display: none;
+}
+
+.qBox {
+  background-color: whitesmoke;
+  text-align: center;
+  border-radius: 20px;
+  font-size: calc(1rem + 0vw);
+  width: 80%;
+  margin: auto;
+}
+
+.answerList {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  display: block;
+  width: 80%;
+  border: 0px;
+  font-size: calc(0.9rem + 0vw);
+  margin: 0.5rem auto;
+}
+
+.answerList:hover, .answerList:focus {
+  background-color: #4D869C;
+  color: white;
+}
+
+.status {
+  height: 20px;
+  width: 80%;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.statusBar {
+  height: 100%;
+  border-radius: 20px;
+  background: #9AD0C2;
+}
     height: 100%;
     border-radius: 20px;
     background: #9AD0C2;
