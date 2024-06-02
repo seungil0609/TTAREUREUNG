@@ -33,6 +33,21 @@
     color: #FEE500;
   }
   
+  
+  .speedon{
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+  
+  .speedon:hover, .speedon:focus {
+    background-color: white;
+    color: blue;
+  }
+
 
   .gohome{
     color: white;
