@@ -1,63 +1,69 @@
-#result{
-    display: none;
-    background-color: whitesmoke;
-    width: 80%;
-    text-align: center;
-    border-radius: 20px;
-  }
-
-#shareResult{
-    background-color: whitesmoke;
-    width: 80%;
-    text-align: center;
-    border-radius: 20px;
+#result {
+  display: none;
+  background-color: whitesmoke;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+  margin: auto;
 }
-  .resultname{
-    font-size: 26px;
-  }
-  
-  .resultDesc{
-    font-size: 20px;
-  }
-  
-  .kakao{
-    color: white;
-    background-color: #FEE500;
-    font-size: 20px;
-    border: 0px;
-    border-radius: 20px;
-  }
-  
-  .kakao:hover, .kakao:focus {
-    background-color: white;
-    color: #FEE500;
-  }
-  
-  
-  .speedon{
-    color: white;
-    background-color: blue;
-    font-size: 20px;
-    border: 0px;
-    border-radius: 20px;
-    text-decoration: none;
-  }
-  
-  .speedon:hover, .speedon:focus {
-    background-color: white;
-    color: blue;
-  }
 
+#shareResult {
+  background-color: whitesmoke;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+  margin: auto;
+}
 
-  .gohome{
-    color: white;
-    background-color: #FEE500;
-    font-size: 20px;
-    border: 0px;
-    border-radius: 20px;
-  }
-  
-  .gohome:hover, .gohome:focus {
-    background-color: white;
-    color: #FEE500;
-  }
+.resultname {
+  font-size: calc(1.5rem + 0.5vw);
+}
+
+.resultDesc {
+  font-size: calc(1rem + 0vw);
+}
+
+.kakao,
+.speedon,
+.gohome {
+  color: white;
+  font-size: calc(1rem + 0vw);
+  border: 0px;
+  border-radius: 20px;
+  display: inline-block;
+  width: auto;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.kakao {
+  background-color: #FEE500;
+}
+
+.kakao:hover,
+.kakao:focus {
+  background-color: white;
+  color: #FEE500;
+}
+
+.speedon {
+  background-color: blue;
+  text-decoration: none;
+}
+
+.speedon:hover,
+.speedon:focus {
+  background-color: white;
+  color: blue;
+}
+
+.gohome {
+  background-color: #FEE500;
+}
+
+.gohome:hover,
+.gohome:focus {
+  background-color: white;
+  color: #FEE500;
+}
