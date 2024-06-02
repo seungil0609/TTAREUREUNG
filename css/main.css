@@ -1,10 +1,15 @@
-#main{
-    background-color:  whitesmoke;
-    width: 80;
+#main {
+    background-color: whitesmoke;
+    width: 80%;
     text-align: center;
     border-radius: 20px;
+    margin: auto;
 }
 
-p{
-    font-size: 20px;
+h1 {
+    font-size: calc(1rem + 1vw);
+}
+
+p {
+    font-size: calc(1rem + 0vw);
 }
