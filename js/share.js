@@ -1,4 +1,4 @@
-const url = 'https://seungil0609.github.io/keirincontest/';
+const url = 'https://seungil0609.github.io/TTAREUREUNG/';
 
 function setShare(){
   var resultImg = document.querySelector('#resultImg');
